@@ -1,4 +1,4 @@
-<?php namespace Garretfick\Trustedproxies\Models;
+<?php namespace GarretFick\Trustedproxies\Models;
 
 use Model;
 use Log;

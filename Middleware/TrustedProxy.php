@@ -1,4 +1,4 @@
-<?php namespace Garretfick\Trustedproxies\Middleware;
+<?php namespace GarretFick\Trustedproxies\Middleware;
 
 use Closure;
 use Config;
@@ -10,7 +10,7 @@ use Garretfick\Trustedproxies\Models\Settings;
 /**
  * Class TrustedProxies
  *
- * @package Garretfick\Trustedproxies\Middlware
+ * @package GarretFick\Trustedproxies\Middlware
  */
 class TrustedProxy extends TrustProxies
 {

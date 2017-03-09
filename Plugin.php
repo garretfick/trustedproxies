@@ -63,7 +63,7 @@ class Plugin extends PluginBase
                 'label'       => 'Trusted Proxies',
                 'description' => 'Manage Trusted Proxies.',
                 'icon'        => 'icon-globe',
-                'class'       => 'Garretfick\Trustedproxies\Models\Settings',
+                'class'       => 'GarretFick\Trustedproxies\Models\Settings',
                 'order'       => 100,
                 'category'    => 'System',
                 'keywords'    => 'trust proxy proxies load balancer',
