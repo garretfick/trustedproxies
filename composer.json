@@ -1,0 +1,23 @@
+{
+    "name": "garretfick/october-trustedproxy",
+    "type": "october-plugin",
+    "description": "Use fideloper/TrustedProxy with OctoberCMS",
+    "keywords": ["october", "cms", "plugin", "trustedproxy"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Garret Fick",
+            "email": "garret@ficksworkshop.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0",
+        "fideloper/proxy": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Garretfick\\Trustedproxies\\": ""
+        }
+    }
+}

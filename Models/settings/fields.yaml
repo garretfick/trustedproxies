@@ -1,0 +1,28 @@
+fields:
+  instructions:
+    type: partial
+    path: $/garretfick/trustedproxies/Models/settings/_instructions_field.htm
+  proxies:
+    label: Proxies to Trust
+    placeholder: "192.168.10.1,192.168.11.1"
+    comment: You can specify a comma separated list, e.g. "192.168.10.1,192.168.11.1" or the keywords "*" to trust all proxies.
+  forwarded:
+    label: Trust Forwarded Header
+    placeholder: FORWARDED
+    comment: Specify the header name to trust for forwarded requests.
+  client_ip:
+    label: Trust Client IP Header
+    placeholder: X_FORWARDED_FOR
+    comment: Specify the header name to trust for client IP.
+  client_host:
+    label: Trust Client Host Header
+    placeholder: X_FORWARDED_HOST
+    comment: Specify the header name to trust for client host.
+  client_proto:
+    label: Trust Client Protocol Header
+    placeholder: X_FORWARDED_PROTO
+    comment: Specify the header name to trust for client protocol.
+  client_port:
+    label: Trust Client Port Header
+    placeholder: X_FORWARDED_PORT
+    comment: Specify the header name to trust for client port.
