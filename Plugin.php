@@ -1,4 +1,4 @@
-<?php namespace Garretfick\Trustedproxies;
+<?php namespace GarretFick\Trustedproxies;
 
 use System\Classes\PluginBase;
 
@@ -30,7 +30,7 @@ class Plugin extends PluginBase
         // This needs to act as middlware because we need to trust the
         // items before doing much processing for the request
         $this->app['Illuminate\Contracts\Http\Kernel']
-            ->pushMiddleware('Garretfick\Trustedproxies\Middleware\TrustedProxy');
+            ->pushMiddleware('GarretFick\Trustedproxies\Middleware\TrustedProxy');
     }
 
     /**
